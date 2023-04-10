@@ -18,8 +18,12 @@ compileJava {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'info.picocli', name: 'picocli', version: '4.7.0'
+    // https://mvnrepository.com/artifact/info.picocli/picocli
 }
 
 test {
     useJUnitPlatform()
 }
+
+
