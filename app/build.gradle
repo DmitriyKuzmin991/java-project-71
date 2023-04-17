@@ -20,6 +20,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation group: 'info.picocli', name: 'picocli', version: '4.7.0'
     // https://mvnrepository.com/artifact/info.picocli/picocli
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
+
 }
 
 test {
